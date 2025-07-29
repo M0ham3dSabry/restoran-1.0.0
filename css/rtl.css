@@ -1,0 +1,148 @@
+/********** RTL Support CSS **********/
+
+/* Set RTL direction for the whole site */
+html, body {
+    direction: rtl;
+    text-align: right;
+    font-family: 'Tajawal', sans-serif;
+}
+
+/* Navbar adjustments */
+.navbar-dark .navbar-nav .nav-link {
+    margin-right: 25px;
+    margin-left: 0;
+}
+
+.navbar-nav {
+    padding-right: 0;
+}
+
+.navbar-dark .navbar-brand i,
+.navbar-dark .navbar-brand svg {
+    margin-left: 10px;
+    margin-right: 0;
+}
+
+/* Fix dropdown menu */
+.dropdown-menu {
+    text-align: right;
+}
+
+/* Fix section title decorations */
+.section-title::before {
+    left: auto;
+    right: -55px;
+}
+
+.section-title::after {
+    right: auto;
+    left: -55px;
+}
+
+/* Fix border alignments */
+.border-start {
+    border-right: 5px solid var(--primary) !important;
+    border-left: 0 !important;
+}
+
+/* Fix padding and margins */
+.ps-4 {
+    padding-right: 1.5rem !important;
+    padding-left: 0 !important;
+}
+
+.me-3 {
+    margin-left: 1rem !important;
+    margin-right: 0 !important;
+}
+
+.ms-auto {
+    margin-right: auto !important;
+    margin-left: 0 !important;
+}
+
+.pe-4 {
+    padding-left: 1.5rem !important;
+    padding-right: 0 !important;
+}
+
+/* Fix back to top button */
+.back-to-top {
+    right: auto;
+    left: 45px;
+}
+
+/* Fix testimonial quotes */
+.testimonial-item .fa-quote-left {
+    left: auto;
+    right: 0;
+}
+
+/* Fix footer icons */
+.footer .btn.btn-social {
+    margin-right: 5px;
+    margin-left: 0;
+}
+
+/* Fix list styles */
+.footer .fa.fa-angle-right,
+.list-group-item i {
+    transform: rotate(180deg);
+    margin-right: 0;
+    margin-left: 8px;
+}
+
+/* Fix text alignments in specific sections */
+.text-start {
+    text-align: right !important;
+}
+
+.text-end {
+    text-align: left !important;
+}
+
+/* Fix form elements */
+.form-floating>label {
+    right: 0;
+    left: auto;
+}
+
+/* Fix counter elements */
+.d-flex.align-items-center {
+    flex-direction: row-reverse;
+}
+
+/* Fix carousel controls */
+.carousel-control-prev {
+    right: auto;
+    left: 0;
+}
+
+.carousel-control-next {
+    left: auto;
+    right: 0;
+}
+
+/* Fix owl carousel navigation */
+.owl-carousel {
+    direction: ltr;
+}
+
+.owl-carousel .owl-item {
+    direction: rtl;
+}
+
+/* Fix bootstrap columns in RTL */
+@media (min-width: 992px) {
+    .navbar-dark {
+        right: 0;
+        left: auto;
+    }
+}
+
+/* Fix mobile menu */
+@media (max-width: 991.98px) {
+    .navbar-dark .navbar-nav .nav-link {
+        margin-right: 0;
+    }
+}

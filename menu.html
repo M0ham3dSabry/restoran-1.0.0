@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="utf-8">
+    <title>مذاق الشرق - قالب مطعم بوتستراب</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="مطعم، طعام، وجبات، مأكولات شرقية، حجز طاولة" name="keywords">
+    <meta content="مطعم مذاق الشرق يقدم أشهى المأكولات الشرقية والغربية في أجواء راقية ومميزة" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&family=Pacifico&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- RTL Stylesheet -->
+    <link href="css/rtl.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container-xxl bg-white p-0">
+        <!-- Spinner Start -->
+        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+
+        <!-- Navbar & Hero Start -->
+        <div class="container-xxl position-relative p-0">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-4 px-lg-5 py-3 py-lg-0">
+                <a href="" class="navbar-brand p-0">
+                    <h1 class="text-primary m-0"><i class="fa fa-utensils me-3"></i>مذاق الشرق</h1>
+                    <!-- <img src="img/logo.png" alt="Logo"> -->
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="fa fa-bars"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto py-0 pe-4">
+                        <a href="index.html" class="nav-item nav-link">الرئيسية</a>
+                        <a href="about.html" class="nav-item nav-link">من نحن</a>
+                        <a href="service.html" class="nav-item nav-link">خدماتنا</a>
+                        <a href="menu.html" class="nav-item nav-link active">قائمة الطعام</a>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">الصفحات</a>
+                            <div class="dropdown-menu m-0">
+                                <a href="booking.html" class="dropdown-item">الحجز</a>
+                                <a href="team.html" class="dropdown-item">فريقنا</a>
+                                <a href="testimonial.html" class="dropdown-item">آراء العملاء</a>
+                            </div>
+                        </div>
+                        <a href="contact.html" class="nav-item nav-link">اتصل بنا</a>
+                    </div>
+                    <a href="" class="btn btn-primary py-2 px-4">احجز طاولة</a>
+                </div>
+            </nav>
+
+            <div class="container-xxl py-5 bg-dark hero-header mb-5">
+                <div class="container text-center my-5 pt-5 pb-4">
+                    <h1 class="display-3 text-white mb-3 animated slideInDown">قائمة الطعام</h1>
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb justify-content-center text-uppercase">
+                            <li class="breadcrumb-item"><a href="#">الرئيسية /</a></li>
+                            <li class="breadcrumb-item text-white active" aria-current="page">قائمة الطعام</li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <!-- Navbar & Hero End -->
+
+
+        <!-- Menu Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                    <h5 class="section-title ff-secondary text-center text-primary fw-normal">قائمة الطعام</h5>
+                    <h1 class="mb-5">الأطباق الأكثر شعبية</h1>
+                </div>
+                <div class="tab-class text-center wow fadeInUp" data-wow-delay="0.1s">
+                    <ul class="nav nav-pills d-inline-flex justify-content-center border-bottom mb-5">
+                        <li class="nav-item">
+                            <a class="d-flex align-items-center text-start mx-3 ms-0 pb-3 active" data-bs-toggle="pill" href="#tab-1">
+                                <i class="fa fa-coffee fa-2x text-primary"></i>
+                                <div class="ps-3">
+                                    <small class="text-body">الأكثر شعبية</small>
+                                    <h6 class="mt-n1 mb-0">الإفطار</h6>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="d-flex align-items-center text-start mx-3 pb-3" data-bs-toggle="pill" href="#tab-2">
+                                <i class="fa fa-hamburger fa-2x text-primary"></i>
+                                <div class="ps-3">
+                                    <small class="text-body">أطباق خاصة</small>
+                                    <h6 class="mt-n1 mb-0">الغداء</h6>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="d-flex align-items-center text-start mx-3 me-0 pb-3" data-bs-toggle="pill" href="#tab-3">
+                                <i class="fa fa-utensils fa-2x text-primary"></i>
+                                <div class="ps-3">
+                                    <small class="text-body">مميز</small>
+                                    <h6 class="mt-n1 mb-0">العشاء</h6>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="tab-content">
+                        <div id="tab-1" class="tab-pane fade show p-0 active">
+                            <div class="row g-4">
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-1.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>فطور عربي</span>
+                                                <span class="text-primary mx-3">٧٥ ريال</span>
+                                            </h5>
+                                            <small class="fst-italic">تشكيلة من الأجبان والزيتون والخضروات الطازجة مع الخبز العربي</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-2.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>فول بالزيت والليمون</span>
+                                                <span class="text-primary mx-3">٤٥ ريال</span>
+                                            </h5>
+                                            <small class="fst-italic">فول مدمس مطهو على نار هادئة مع زيت الزيتون والثوم والليمون</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-3.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>شكشوكة بالجبنة</span>
+                                                <span class="text-primary mx-3">٦٠ ريال</span>
+                                            </h5>
+                                            <small class="fst-italic">بيض مطهو مع الطماطم والفلفل والبصل والتوابل الشرقية مع جبنة الفيتا</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-4.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>حمص بالطحينة</span>
+                                                <span class="text-primary mx-3">٥٠ ريال</span>
+                                            </h5>
+                                            <small class="fst-italic">حمص مهروس مع طحينة وزيت زيتون وليمون، يقدم مع الخبز العربي الساخن</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-5.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>مناقيش زعتر</span>
+                                                <span class="text-primary mx-3">٤٠ ريال</span>
+                                            </h5>
+                                            <small class="fst-italic">عجينة طازجة مع خلطة الزعتر البلدي وزيت الزيتون</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-6.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>لبنة بالزيتون</span>
+                                                <span class="text-primary mx-3">٥٥ ريال</span>
+                                            </h5>
+                                            <small class="fst-italic">لبنة طازجة مع زيت الزيتون والزعتر وحبات الزيتون الأسود</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-7.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>فطيرة جبنة</span>
+                                                <span class="text-primary mx-3">٦٥ ريال</span>
+                                            </h5>
+                                            <small class="fst-italic">فطيرة محشوة بمزيج من الجبن الأبيض والموزاريلا مع رشة زعتر</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-8.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>عصيدة بالتمر</span>
+                                                <span class="text-primary mx-3">٤٥ ريال</span>
+                                            </h5>
+                                            <small class="fst-italic">عصيدة تقليدية محلاة بالتمر والعسل، تقدم ساخنة مع المكسرات</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="tab-2" class="tab-pane fade show p-0">
+                            <div class="row g-4">
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-1.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>كبسة لحم</span>
+                                                <span class="text-primary mx-3">٩٥ ريال</span>
+                                            </h5>
+                                            <small class="fst-italic">أرز بسمتي مطهو مع قطع اللحم الضأن والبهارات العربية الأصيلة</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-2.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>مندي دجاج</span>
+                                                <span class="text-primary mx-3">٨٥ ريال</span>
+                                            </h5>
+                                            <small class="fst-italic">أرز مطهو على الطريقة اليمنية مع الدجاج المتبل بالبهارات الخاصة</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-3.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>برياني لحم</span>
+                                                <span class="text-primary mx-3">١٠٠ ريال</span>
+                                            </h5>
+                                            <small class="fst-italic">أرز برياني هندي أصيل مع قطع اللحم المتبلة والمكسرات والزبيب</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-4.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>مشاوي مشكلة</span>
+                                                <span class="text-primary mx-3">١٢٠ ريال</span>
+                                            </h5>
+                                            <small class="fst-italic">تشكيلة من اللحوم المشوية تشمل كباب وشيش طاووق وكفتة مع الخضروات</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-5.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>صيادية سمك</span>
+                                                <span class="text-primary mx-3">٩٠ ريال</span>
+                                            </h5>
+                                            <small class="fst-italic">سمك طازج مطهو مع الأرز والبصل والصنوبر على الطريقة اللبنانية</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-6.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>محشي ورق عنب</span>
+                                                <span class="text-primary mx-3">٧٠ ريال</span>
+                                            </h5>
+                                            <small class="fst-italic">ورق عنب محشي بالأرز واللحم المفروم والبهارات، يقدم مع صلصة الليمون</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-7.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>مقلوبة باذنجان</span>
+                                                <span class="text-primary mx-3">٨٠ ريال</span>
+                                            </h5>
+                                            <small class="fst-italic">طبق فلسطيني تقليدي من الأرز والباذنجان واللحم، يقدم مقلوباً مع اللبن</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-8.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>كوزي خروف</span>
+                                                <span class="text-primary mx-3">١٥٠ ريال</span>
+                                            </h5>
+                                            <small class="fst-italic">فخذ خروف كامل مطهو ببطء مع الأرز والمكسرات والبهارات العربية الفاخرة</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="tab-3" class="tab-pane fade show p-0">
+                            <div class="row g-4">
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-1.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>مشاوي مشكلة فاخرة</span>
+                                                <span class="text-primary mx-3">١٣٠ ريال</span>
+                                            </h5>
+                                            <small class="fst-italic">تشكيلة فاخرة من اللحوم المشوية تشمل ريش خروف وفيليه لحم وكباب وشيش طاووق</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-2.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>سمك مشوي</span>
+                                                <span class="text-primary mx-3">١١٠ ريال</span>
+                                            </h5>
+                                            <small class="fst-italic">سمك طازج مشوي مع الأعشاب البحرية والليمون، يقدم مع صلصة الطحينة والخضروات</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-3.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>قوزي خروف كامل</span>
+                                                <span class="text-primary mx-3">١٨٠ ريال</span>
+                                            </h5>
+                                            <small class="fst-italic">خروف كامل محشي بالأرز والمكسرات والبهارات، يكفي من ٦-٨ أشخاص</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-4.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>منسف أردني</span>
+                                                <span class="text-primary mx-3">١٢٠ ريال</span>
+                                            </h5>
+                                            <small class="fst-italic">طبق أردني تقليدي من اللحم واللبن الجميد والأرز، يقدم مع المكسرات</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-5.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>كبة نية</span>
+                                                <span class="text-primary mx-3">٩٠ ريال</span>
+                                            </h5>
+                                            <small class="fst-italic">لحم غنم طازج مفروم مع البرغل والبصل والبهارات اللبنانية الخاصة</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-6.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>مضغوط لحم</span>
+                                                <span class="text-primary mx-3">١٠٠ ريال</span>
+                                            </h5>
+                                            <small class="fst-italic">طبق سعودي تقليدي من الأرز واللحم المطبوخ بالضغط مع البهارات الخاصة</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-7.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>مشوي دجاج مع الفريكة</span>
+                                                <span class="text-primary mx-3">٩٥ ريال</span>
+                                            </h5>
+                                            <small class="fst-italic">دجاج مشوي متبل بالأعشاب العربية يقدم مع الفريكة المطبوخة بمرق الدجاج</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-8.jpg" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>أم علي</span>
+                                                <span class="text-primary mx-3">٥٠ ريال</span>
+                                            </h5>
+                                            <small class="fst-italic">حلوى مصرية تقليدية من عجينة الباف والحليب والمكسرات، تقدم ساخنة</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Menu End -->
+
+
+        <!-- Footer Start -->
+        <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-lg-4 col-md-6">
+                        <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">المطعم</h4>
+                        <a class="btn btn-link" href="">من نحن</a>
+                        <a class="btn btn-link" href="">اتصل بنا</a>
+                        <a class="btn btn-link" href="">الحجز</a>
+                        <a class="btn btn-link" href="">سياسة الخصوصية</a>
+                        <a class="btn btn-link" href="">الشروط والأحكام</a>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">اتصل بنا</h4>
+                        <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>طريق الملك فهد، الرياض، المملكة العربية السعودية</p>
+                        <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+966 12 345 6789</p>
+                        <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@mazaqalsharq.com</p>
+                        <div class="d-flex pt-2">
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">أوقات العمل</h4>
+                        <h5 class="text-light fw-normal">الأحد - الخميس</h5>
+                        <p>٩ صباحًا - ١١ مساءً</p>
+                        <h5 class="text-light fw-normal">الجمعة والسبت</h5>
+                        <p>١٠ صباحًا - ١٢ منتصف الليل</p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="container">
+                <div class="copyright">
+                    <div class="row">
+                        <div class="col-md-6 text-center text-md-end mb-3 mb-md-0">
+                            &copy; <a class="border-bottom" href="#">مذاق الشرق</a>, جميع الحقوق محفوظة.
+
+                            <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                            تصميم وتطوير <a class="border-bottom" href="http://mohamed-sabry.com/">Mohamed Sabry</a>
+                        </div>
+                        <div class="col-md-6 text-center text-md-end">
+                            <div class="footer-menu">
+                                <a href="">الرئيسية</a>
+                                <a href="">ملفات تعريف الارتباط</a>
+                                <a href="">المساعدة</a>
+                                <a href="">الأسئلة الشائعة</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+
+        <!-- العودة إلى الأعلى -->
+        <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+    </div>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
